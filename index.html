@@ -243,24 +243,58 @@
         </div>
     </section>
 
-    <section class="contact">
-        <div class="context">
-            <h1>Contact Us!</h1>
-            <p>What can  we do for you?</p>
+    <div class="contact-form">
+        <div class="contact-header">
+            <h1>Contact us!</h1>
+            <p>What can we do for you?</p>
+            <div class="contact-buttons">
+                <button id="product-design" class="active">Product Design</button>
+                <button id="website-development">Website Development</button>
+                <button id="mobile-apps-development">Mobile Apps Development</button>
+            </div>
         </div>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="project-details" placeholder="Project details" required></textarea>
+            <button type="submit" class="submit-button">Send</button>
+        </form>
+        <div class="contact-info">
+            <p>Phone</p>
+            <p>+1 (833) 520-3712</p>
+            <p>Email</p>
+            <p>Hello@conceptsoftworks.com</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="Concept Softworks Logo">
+                    <h1>LUMICODE SOLUTIONS</h1>
+                </div>
+                <p>Concept Softworks is a software company, we develop custom built software for clients - covering everything from financial institutions & medical companies all the way to tech companies and government organizations.</p>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Client</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="footer-social">
+                    <p>Flow</p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-        <div class="niche">
-            <div class="niches">
-                <h1>Product Design</h1>
-            </div>
-            <div class="niches">
-                <h1>Web Development</h1>
-            </div>
-            <div class="niches">
-                <h1>Mobile Apps Dev</h1>
-            </div>
-        </div>
-    </section>
     <script src="script.js"></script>
 </body>
 </html>
