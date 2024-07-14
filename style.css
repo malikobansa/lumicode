@@ -310,3 +310,51 @@ body {
     color: #ddd;
 }
 
+.blog-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-grid h3{
+    font-size: 50px;
+    color: #ccc;
+}
+
+.blog-grid h1{
+    font-size: 100px;
+    color: slategray;
+    margin-top: 100px;
+}
+
+.contact{
+    background-color: #ccc;
+}
+
+.context h1{
+    font-size: 40px;
+    color: slategray;
+}
+
+.context p{
+    font-size: 30px;
+    color: slategray;
+}
+
+.niche{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 100px;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.niches h1{
+    font-weight: medium;
+    font-size: 25px;
+    border: 2px solid gray;
+    padding: 25px;
+    border-radius: 50px;
+}
